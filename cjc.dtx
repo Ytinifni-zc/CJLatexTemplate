@@ -295,7 +295,7 @@ version 2005/12/01 or later.
 % \begin{macro}{\cjc@strifeq}
 % 使用 \LaTeX3 的功能判断字符串是否相等。这里也可以使用 \pkg{xstring} 宏包。
 %    \begin{macrocode}
-\newcommand\cjc@strifeq{\csname str_if_eq_x:nnTF\endcsname}
+\newcommand\cjc@strifeq{\csname str_if_eq:eeTF\endcsname}
 %    \end{macrocode}
 % \end{macro}
 %
