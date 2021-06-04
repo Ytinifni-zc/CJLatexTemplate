@@ -6,7 +6,7 @@
 %%
 %% cjc.dtx  (with options: `class')
 %% 
-%% Copyright (C) 2019-2019 by Zeping Lee <zepinglee AT gmail.com>
+%% Copyright (C) 2019-2021 by Zeping Lee <zepinglee AT gmail.com>
 %% 
 %% This file may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3c
@@ -49,7 +49,7 @@
 \RequirePackage{caption}
 \RequirePackage{url}
 \RequirePackage[numbers,sort&compress]{natbib}
-\newcommand\cjc@strifeq{\csname str_if_eq_x:nnTF\endcsname}
+\newcommand\cjc@strifeq{\csname str_if_eq:eeTF\endcsname}
 \newcommand\cjc@fontset{\csname g__ctex_fontset_tl\endcsname}
 \cjc@strifeq{\cjc@fontset}{fandol}{
   \setmainfont[
